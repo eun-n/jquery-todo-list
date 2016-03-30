@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>To Do List</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>List of things to do</h1> <br>
+		<p>Type in a task and press Submit to add it to the table. Click on the task to get rid of it!</p>
+		<form id="myList">
+			<input type="text">
+			<input type="submit" value="Submit">
+		</form> <br>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+						<td>
+							Feed Dog
+							<input type="button" value="Done!">	
+						</td>
+				</tr>
+				<tr>
+					<td>
+						Eat Ice Cream
+						<input type="button" value="Done!">	
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Pet Dog
+						<input type="button" value="Done!">	
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
