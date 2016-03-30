@@ -1,6 +1,8 @@
-$("td").on("click", function() {
+function done () {
+	$("td").on("click", function() {
 	$(this).fadeOut()
 });
+}
 
 $("#myList").submit(function(event) {
 	event.preventDefault();
@@ -14,3 +16,4 @@ $("#myList").submit(function(event) {
 	});
 }); 
 
+setInterval(done, 500);
