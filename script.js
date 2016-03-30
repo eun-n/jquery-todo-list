@@ -1,6 +1,6 @@
 function done () {
 	$("td").on("click", function() {
-	$(this).fadeOut()
+	$(this).remove()
 });
 }
 
